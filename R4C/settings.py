@@ -127,4 +127,9 @@ REST_FRAMEWORK = {
         # 'rest_framework.renderers.BrowsableAPIRenderer',
     ]
 }
-
+# настройка сервиса отправки почты
+EMAIL_HOST = 'smtp.gmail.com'  # хост
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'company.email@gmail.com'  # почта пользователя
+EMAIL_HOST_PASSWORD = 'company_email_password'  # пароль пользователя
